@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+:root{
+    --color01:#f9c197;
+    --color02:#fbd1b0;
+    --color03:#fce0c9;
+    --color04:#fef0e2;
+    --color05:#fffffb; 
+    --black30:#1E1E1E;
+}
+body{
+    background-color: var(--color04);
+  
+}
+.titlePage{
+    text-align: center;
+    margin-top: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+/* =================================================================*/
+/*     ESTILOS HEADER     ==========================================*/
+/* =================================================================*/
+.cartWidget{
+    display: flex;
+    align-items: flex-end;
+    color:var(--color05)
+}
+.cartQty{
+    background-color: var(--color05);
+    color: var(--black30);
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    text-decoration: none;
+}
+.homeLink{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5px;
+}
+.linksNav{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap:15px;
+}
+.categories{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.categoryLink{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color05);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.orderBtn{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 300;
+    color: var(--color05);
+    display: flex;
+}
+.linkNav{
+    text-decoration: none;
+}
+.titleNav{
+    color: var(--color05);
+    font-size: 30px;
+    font-weight: 200;
+}
+.titleNav:hover{
+    color: #5a5a5a;
+    cursor: pointer;
+}
+.logoNav{
+    width: 55px;
+}
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: var(--color01);
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* =================================================================*/
+/*     ESTILOS CART     ============================================*/
+/* =================================================================*/
+
+.table{
+    border: solid 2px var(--color02);
+    width: 90%;
+    margin: 20px 5% 0 5%;
+    border-collapse: collapse;
+    background-color: var(--color04);
+}
+.tableRow{
+    background-color: var(--color02);
+    height: 30px;
+    text-align: center;
+  
+}
+.tableTitle{
+    width: 20%;
+    padding: 5px;
+    color: var(--color05);
+    font-weight: 650;
+    font-size: 18px;
+    text-align: center;
+}
+.totalCart{
+    color: var(--color05);
+    margin: 0;
+    text-align: right;
+    font-weight: 650;
+    font-size: 25px;
+}
+.finalTableContent{
+    width: 100%;
+}
+.emptyCart{
+    background-color: var(--color01);
+    padding: 10px 15px;
+    border: solid 1px var(--color02);
+    border-radius: 5px;
+}
+.buyCart{
+    background-color: var(--color03);
+    padding: 10px 15px;
+    border: solid 1px var(--color02);
+    border-radius: 5px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--black30);
+}
+.finalRow{
+    background-color: var(--color02);
+    width: 90%;
+    margin: 0 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tableContent{
+    width: 20%;
+    font-weight: 500;
+    padding: 5px 7px;
+    text-align: center;
+}
+.tableContentRow{
+    background-color: var(--color02);
+    border-bottom: solid 2px var(--color01);
+}
+.buttonRemoveItem{
+    border: none;
+    background: none;
+}
+.tdRemoveItem{
+    background-color: var(--color01);
+    padding: 0 10px;
+}
+
+/* =================================================================*/
+/*     ESTILOS CHECKOUT     ========================================*/
+/* =================================================================*/
+
+.formCheckout{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+  
+/* =================================================================*/
+/*     ESTILOS ITEM DETAIL     =====================================*/
+/* =================================================================*/
+  
+.bodyDetail{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
+    margin:40px 0;
+    padding:20px;
+}
+.imgDetail{
+    max-width: 450px;
+    border-radius: 10px 0 0 10px;
+}
+.containerDetail{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    border-radius:10px;
+    gap:32px;
+    box-shadow:0px 0px 20px 10px rgba(0,0,0,0.066);
+    padding-right:32px;
+    background-color:#fef0e2;
+}
+.contentDetail{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    width: 450px;
+    padding: 30px;
+}
+.descriptionDetail{
+    font-size: 15px;
+    margin: 14px;
+    text-align: center;
+    max-width: 350px;
+}
+.titleDetail{
+    text-align: center;
+}
+.buttonBuyDetail{
+    background-color: var(--color01);
+    color: var(--color05);
+    height: 30px;
+    width: 200px;
+    border:none;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.buyContainerDetail{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* =================================================================*/
+/*     ESTILOS ITEM LIST CONTAINER     =============================*/
+/* =================================================================*/
+
+.itemCardContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.itemCard{
+    width: 240px;
+    border-radius: 10px;
+    background-color: var(--color05);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 350px;
+    transition: 200ms;
+}
+.itemCard:hover{
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.06);
+    transform: scale(105%);
+}
+.imgCard{
+    width: 240px;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    object-fit: cover;
+}
+
+.titleCard{
+    font-size: 20px;
+    font-weight: 150;
+    margin: 0;
+    height: 32px;
+    text-align: center;
+}
+.titleStockCard{
+    color: var(--color01);
+    font-size: 20px;
+    font-weight: 350;
+    margin: 0;
+    height: 32px;
+    text-align: center;
+}
+.detailBtnCard{
+    width: 100%;
+    height: 32px;
+    color: var(--color05);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--color01);
+}
+.priceCard{
+    font-size: 15px;
+    text-align: right;
+    padding: 0 7px 0 0;
+}
+
+/* =================================================================*/
+/*     ESTILOS ORDER CONTAINER     =================================*/
+/* =================================================================*/
+
+
+.bodyOrder{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    gap: 15px;
+}
+.titleOrder{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.totalOrder{
+    font-size: 25px;
+    font-weight: 250;
+}
+.containerOrder{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5px;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.066);
+    padding: 30px;
+    background-color: var(--color02);
+}
+.contentOrder{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    margin: 15px 0;
+    gap: 10px;
+}
+.descriptionOrder{
+    font-size:15px;
+    margin: 14px;
+    text-align: center;
+    max-width: 360px;
+}
+.orderId{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.orderBuyer{
+    font-size: 20px;
+    font-weight: 300;
+}
+.orderProduct{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: var(--color01);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* =================================================================*/
+/*     ESTILOS FORMS  ==============================================*/
+/* =================================================================*/
+
+.containerForm{
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 600px;
+    padding: 30px 0;
+    background-color: var(--color01);
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.066);
+    justify-content: center;
+}
+.contentForm{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px 0;
+    gap: 15px;
+}
+.buttonForm{
+    background-color: var(--color04);
+    color: var(--black30);
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 13px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-radius: 50px;
+    box-shadow:  9px 9px 18px #c9a78d;
+}
+.buttonForm:hover{
+}
+.buttonForm:active{
+    box-shadow: none;
+    
+}
+.inputForm{
+    border-radius: 13px;
+    height: 25px;
+    width: 200px;
+    padding-left: 7px;
+    border: solid 2px #B4B4B4;
+}
+.titleForm{
+    font-size: 35px;
+    font-weight: 220;
+}
+.subtitleForm{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* =================================================================*/
+/*     ESTILOS ITEM COUNT    =======================================*/
+/* =================================================================*/
+
+.containerCount{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.itemCounter{
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    background-color: var(--color02);
+}
+.counterItemCount{
+    font-size: 25px;
+    margin: 0;
+}
+.buttonAddCart{
+    background-color: var(--color05);
+    border-radius: 0 0 15px 15px;
+    border: none;
+    height: 25px;
+}
+.buttonCounter{
+    background-color: var(--color05);
+    border-radius: 100%;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+
