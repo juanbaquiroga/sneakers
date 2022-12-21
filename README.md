@@ -1,6 +1,6 @@
 # Juanba.
 
-Hola, yo soy Juan Bautista Quiroga y me complace presentarles mi proyecto final para el curso de React fr Coder House.
+Hola, yo soy Juan Bautista Quiroga y me complace presentarles mi proyecto final para el bootcamp full-stack de generacion T.
 
 ---
 
@@ -18,7 +18,7 @@ juanba es una empresa dedicada a la venta de zapatillas importadas, la cual requ
   - una vez realizada la compra se nos generara un id de compra, el cual podremos colocar en el buscador de ordenes(al cual nos dirigimos desde el nav) y ver el resumen de la compra.
   ### en caso de que quieras clonar este repositorio:
   1. ```bash
-      git clone https://github.com/juanbaquiroga/ecommerce.git
+      git clone https://github.com/juanbaquiroga/sneakers.git
       ```
   2. ```bash
       npm install
@@ -38,6 +38,5 @@ juanba es una empresa dedicada a la venta de zapatillas importadas, la cual requ
 ---
 
 ## links importantes:
-  - [repositorio](https://github.com/juanbaquiroga/react)
-  - [deploy](https://juanba-juanbaquiroga.vercel.app/)
-  - [video navegando la pagina](https://www.icloud.com/iclouddrive/0a4AhoiA4inRCTM4oU-CYW6Zg#Grabacio%CC%81n_de_pantalla_2022-10-30_a_la(s)_15.28.06)
+  - [repositorio](https://github.com/juanbaquiroga/sneakers)
+  - [deploy]()
